@@ -8,6 +8,7 @@ function App() {
       });
     });
   });
+
   return (
     <div className="font-mono">
       <nav class="sticky sticky top-0 z-50 w-full border-b-2 border-light-secondary bg-dark-secondary">
@@ -114,7 +115,7 @@ function App() {
         <div className="flex flex-col justify-center items-center space-y-4 m-8 p-8 rounded-lg bg-dark-primary border-light-secondary border-2">
           <img
             className="inline-block rounded-lg h-32"
-            src="../public/deltek.png"
+            src="../deltek.png"
           ></img>
           <h1 class="text-4xl font-bold text-light-primary">Deltek, Inc.</h1>
           <p class="text-light-primary text-center">
